@@ -3,6 +3,8 @@ MÓDULO: Entornos de Desarrollo (1DM3)
 RETO 3: Depuración de Código en VS Code
 EJERCICIO: Sistema de Gestión de Notas (gestion_notas.py)
 
+MERGE HECHO
+
 """
 
 def fn_CalcularMediaPonderada_fl(notas_lst, pesos_lst):
