@@ -38,7 +38,7 @@ def fn_ObtenerNotaMinima_fl(notas_lst):
     """
     Devuelve la nota más baja de la clase.
     """
-    minima_fl = 0
+    minima_fl = 10
 
     for nota_fl in notas_lst:
         if nota_fl < minima_fl:
