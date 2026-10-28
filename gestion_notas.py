@@ -17,7 +17,7 @@ def fn_CalcularMediaPonderada_fl(notas_lst, pesos_lst):
         suma_fl += notas_lst[i] * pesos_lst[i]
         i += 1
 
-    media_fl = suma_fl / len(notas_lst)
+    media_fl = suma_fl
 
     return media_fl
 
