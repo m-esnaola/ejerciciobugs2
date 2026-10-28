@@ -29,7 +29,7 @@ def fn_ContarAprobados_int(notas_lst, nota_corte_fl=5.0):
     aprobados_int = 0
 
     for nota_fl in notas_lst:
-        if nota_fl > nota_corte_fl:
+        if nota_fl >= nota_corte_fl:
             aprobados_int += 1
 
     return aprobados_int
